@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e569dc07-731b-4807-b143-0cef35aef110" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/01-块级作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/02-块级作用域(ES5没闭包-有闭包-let对比).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/03-const的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-ES6补充/04-对象字面量的增强写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Vue初体验/01-HelloVuejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Vue初体验/02-Vue列表展示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Vue初体验/03-Vue案例-计数器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-Vue初体验/04-Vue的template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/01-Mustache语法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/02-v-once指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/03-v-html指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/04-v-text指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/05-v-pre指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-插值的操作/06-v-cloak指令的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/01-v-bind的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/02-v-bind动态绑定class(对象语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/03-v-bind动态绑定class(数组语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/04-作业v-for和v-bind的结合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/05-v-bind动态绑定style(对象语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/06-v-bind动态绑定style(数组语法).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/02-v-on的参数问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-事件监听/03-v-on的修饰符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\abs\Vue-test\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1btU8xVKT6IRSVAeMiWm51uHGmT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e569dc07-731b-4807-b143-0cef35aef110" name="Default Changelist" comment="" />
+      <created>1589450727815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589450727815</updated>
+      <workItem from="1589450808836" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589450835625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450835625" />
+  </component>
+</project>

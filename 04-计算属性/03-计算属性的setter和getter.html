@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>{{fullName}}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            books: [
+                {id: 111, name: 'Effective Java中文版', price: 129},
+                {id: 112, name: '代码大全（第2版）', price: 139},
+                {id: 113, name: 'Java编程思想', price: 149},
+                {id: 114, name: 'Head First设计模式', price: 159},
+                {id: 115, name: '代码整洁之道', price: 169},
+                {id: 116, name: 'Java并发编程实战', price: 179},
+            ],
+            firstName: 'kobe',
+            lastName: 'Bryant',
+        },
+        computed: {
+            // fullName: function () {
+            //    return this.firstName+' '+this.lastName
+            // },
+            fullName: {
+                set: function (newValue) {
+                    console.log(newValue);
+                    let split = newValue.split(' ');
+                    this.firstName = split[0];
+                    this.lastName = split[1];
+                },
+                get: function () {
+                    return this.firstName + ' ' + this.lastName
+                }
+            },
+        },
+
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <h2>{{totalPrice}}</h2>
+    <h2>{{totalPriceForIn}}</h2>
+    <h2>{{totalPriceForOf}}</h2>
+    <h2>{{totalPriceReduce}}</h2>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            books: [
+                {id: 111, name: 'Effective Java中文版', price: 129},
+                {id: 112, name: '代码大全（第2版）', price: 139},
+                {id: 113, name: 'Java编程思想', price: 149},
+                {id: 114, name: 'Head First设计模式', price: 159},
+                {id: 115, name: '代码整洁之道', price: 169},
+                {id: 116, name: 'Java并发编程实战', price: 179},
+            ]
+        },
+        computed: {
+            totalPrice: function () {
+                let totalPrice = 0;
+                for (let i = 0; i < this.books.length; i++) {
+                    totalPrice += this.books[i].price
+                }
+                return totalPrice;
+            },
+            totalPriceForOf: function () {
+                let totalPrice = 0;
+                for (let index in this.books) {
+                    totalPrice += this.books[index].price
+                }
+                return totalPrice;
+            },
+            totalPriceForIn: function () {
+                let totalPrice = 0;
+                for (let book of this.books) {
+                    totalPrice += book.price
+                }
+                return totalPrice;
+            },
+            totalPriceReduce: function () {
+                //跟java reduce规约操作其实差不多，left代表上一个操作后的值，right代表当前对象，0表示第一次操作的值
+                return this.books.reduce((left, right) => {
+                    console.log(left);
+                    console.log(right);
+                    return right.price + left;
+                }, 0);
+            }
+        },
+    })
+</script>
+</body>
+</html>

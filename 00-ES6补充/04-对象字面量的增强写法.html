@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+</body>
+<script>
+    const obfV1 = new Object();
+    const obj = {
+        name: 'why',
+        age: 40,
+        height: '1.88',
+        eat: function () {
+            console.log('eat');
+        },
+        run: function () {
+            console.log('run');
+        }
+    };
+
+    //1、增强属性的写法
+    const name = 'kobe';
+    const age = 19;
+    const height = '1.88';
+    const obj = {
+        'name': name,
+        'age': age,
+        'height': height,
+    };
+    console.log(obj);
+    const objV2 = {
+        name,
+        age,
+        height,
+    };
+    console.log(objV2);
+
+    //2、函数的增强写法
+    const objV3 = {
+        eat: function () {
+            console.log('eat');
+        },
+        run() {
+            console.log('run');
+        }
+    };
+    console.log(objV3);
+</script>
+</html>

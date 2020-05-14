@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app"> {{message}}</div>
+<script src="../js/vue.js"></script>
+<script>
+    //@click 语法糖 相当于 v-on:click 简写
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '你好啊!!!fw',
+            movies: ['大话西游', '大河恋', '美国往事', '少年派', '重庆森林'],
+            counter: 0
+        },
+        methods: {
+            add: function () {
+                console.log("add被执行了!");
+                this.counter++;
+            },
+            sub: function () {
+                console.log("sub被执行了!");
+                this.counter--;
+            }
+        }
+    })
+</script>
+</body>
+</html>
