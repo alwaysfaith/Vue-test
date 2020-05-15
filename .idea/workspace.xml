@@ -2,47 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e569dc07-731b-4807-b143-0cef35aef110" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-ES6补充/01-块级作用域.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-ES6补充/02-块级作用域(ES5没闭包-有闭包-let对比).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-ES6补充/03-const的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/00-ES6补充/04-对象字面量的增强写法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Vue初体验/01-HelloVuejs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Vue初体验/02-Vue列表展示.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Vue初体验/03-Vue案例-计数器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-Vue初体验/04-Vue的template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/01-Mustache语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/02-v-once指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/03-v-html指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/04-v-text指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/05-v-pre指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-插值的操作/06-v-cloak指令的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/01-v-bind的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/02-v-bind动态绑定class(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/03-v-bind动态绑定class(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/04-作业v-for和v-bind的结合.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/05-v-bind动态绑定style(对象语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-动态属性绑定/06-v-bind动态绑定style(数组语法).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/01-计算属性的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/02-计算属性的复杂操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/03-计算属性的setter和getter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-计算属性/04-计算属性和methods的对比.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-事件监听/01-v-on的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-事件监听/02-v-on的参数问题.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-事件监听/03-v-on的修饰符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/01-v-if的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/03-v-if和v-else-if和v-else的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/04-用户登录切换的案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/05-用户登录切换的案例(小问题).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-条件判断/06-v-show的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/01-书籍购物车.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/lambda.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/01-v-model的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/02-v-model的原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/03-v-model结合radio类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/04-v-model结合checkbox类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/05-v-model结合select类型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,9 +57,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-v-model使用" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\abs\Vue-test\08-书籍购物车案例" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\abs\Vue-test\09-v-model使用" />
+      <recent name="D:\abs\Vue-test\07-循环遍历" />
+      <recent name="D:\abs\Vue-test\06-条件判断" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -88,17 +96,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589450727815</updated>
-      <workItem from="1589450808836" duration="28000" />
+      <workItem from="1589450808836" duration="418000" />
+      <workItem from="1589505155004" duration="20659000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1589450879513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589450879513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589450835625">
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589450878919">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450835625" />
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450878919" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589450885058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450885058" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589505228208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589505228208" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589536604405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589536604405" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1589527229891">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589527229891" />
   </component>
 </project>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <table>
+        <thead>
+        <tr>
+            <td>书籍名称</td>
+            <td>出版日期</td>
+            <td>价格</td>
+            <td>购买数量</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr v-for="(item,index) in bookCart" :key="item.id">
+            <td>{{item.name}}</td>
+            <td>{{item.date}}</td>
+            <td>{{item.price}}</td>
+            <td>
+                <button @click="btnAdd(index)">+</button>
+                {{currentNum[index]}}
+                <button @click="btnSub(index)">-</button>
+            </td>
+            <td>
+                <button @click="btnRemove(index)">移除</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <p>总价:￥{{totalPrice}}</p>
+    <p>总价:￥{{totalPriceForOf}}</p>
+    <p>总价:￥{{totalPriceForIn}}</p>
+    <p>总价:￥{{totalPriceReduce}}</p>
+</div>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '你好啊!!!fw',
+            bookCart: [
+                {id: 111, name: 'Effective Java中文版', date: '2006-09', price: 129},
+                {id: 112, name: '代码大全（第2版）', date: '2006-02', price: 139},
+                {id: 113, name: 'Java编程思想', date: '2006-03', price: 149},
+                {id: 114, name: 'Head First设计模式', date: '2006-05', price: 159},
+                {id: 115, name: '代码整洁之道', date: '2006-09', price: 169},
+                {id: 116, name: 'Java并发编程实战', date: '2006-12', price: 179},
+            ],
+            firstName: 'kobe',
+            currentNum: [0, 0, 0, 0, 0, 0],
+            lastName: 'Bryant',
+        },
+        methods: {
+            btnAdd: function (index) {
+                if (this.currentNum[index] > 99999) {
+                    alert('数量超过限制');
+                    return;
+                }
+                let number = this.currentNum[index];
+                // console.log(number);
+                number++;
+                Vue.set(this.currentNum, index, number)//是响应式的
+            },
+            btnSub(index) {
+                if (this.currentNum[index] <= 0) {
+                    alert('数量超过限制');
+                    return;
+                }
+                let number = this.currentNum[index];
+                number--;
+                Vue.set(this.currentNum, index, number)//是响应式的
+            },
+            btnRemove(index) {
+                this.bookCart.splice(index, 1);
+                this.currentNum.splice(index, 1)
+            },
+
+        },
+        computed: {
+            totalPrice: function () {
+                let totalPrice = 0;
+                for (let i = 0; i < this.bookCart.length; i++) {
+                    totalPrice += this.bookCart[i].price * this.currentNum[i]
+                }
+                return totalPrice;
+            },
+            totalPriceForOf: function () {
+                let totalPrice = 0;
+                for (let index in this.bookCart) {
+                    totalPrice += this.bookCart[index].price* this.currentNum[index]
+                }
+                return totalPrice;
+            },
+            totalPriceForIn: function () {
+                let totalPrice = 0;
+                for (let book of this.bookCart) {
+                    totalPrice += book.price
+                }
+                return totalPrice;
+            },
+            totalPriceReduce: function () {
+                //跟java reduce规约操作其实差不多，left代表上一个操作后的值，right代表当前对象，0表示第一次操作的值
+                return this.bookCart.reduce((left, right) => {
+                    console.log(left);
+                    console.log(right);
+                    return right.price + left;
+                }, 0);
+            }
+        },
+
+    })
+</script>
+</body>
+</html>
