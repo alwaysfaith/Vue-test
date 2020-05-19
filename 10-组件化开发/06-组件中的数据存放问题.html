@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--3. 使用组件-->
+    <cpn1></cpn1>
+    <cpn2></cpn2>
+    <cpn3></cpn3>
+</div>
+<script type="text/x-template" id="cpn1">
+    <div>
+        <h2>{{tittle}}</h2>
+        <p>{{article}}</p>
+    </div>
+</script>
+
+<template id="cpn2">
+    <div>
+        <h2>{{tittle}}</h2>
+        <p>{{article}}</p>
+    </div>
+</template>
+
+<template id="cpn3">
+    <div>
+        <h2>{{tittle}}</h2>
+        <p>{{article}}</p>
+    </div>
+</template>
+
+<script src="../js/vue.js"></script>
+<script>
+    //1. 创建组件构造器
+    //2. 注册组件（全局组件，意味着可以在多个Vue的实例下使用）
+    //  let component = Vue.component('my-cpm', cpmC);
+    //  注册全局组件语法糖cpn1
+    Vue.component('cpn3', {
+        template: '#cpn3',
+        data() {
+            return {
+                tittle: '我去你大爷',
+                article: '我去你大爷ntr',
+            }
+        }
+    });
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '我是标题1',
+            article: '我是内容,ntr1',
+        },
+        components: {
+            'cpn1': {
+                template: '#cpn1'
+            },
+            'cpn2': {
+                template: '#cpn2'
+            },
+        }
+    });
+</script>
+</body>
+</html>

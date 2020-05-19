@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    <!--
+    1. 插槽的基本使用
+    2. 插槽的默认值<slot>button</slot>
+    3. 如果有多个值，同时放入到组件进行替换时，一起作为替换元素
+    4. 如果有两个插槽，默认全部替换一个
+    -->
+    <cpn></cpn>
+
+    <cpn><span>我是span元素</span></cpn>
+    <cpn><i>我是i元素</i></cpn>
+    <cpn>
+        <i>我是i元素</i>
+        <div>我是div元素</div>
+        <p>我是p元素</p>
+    </cpn>
+
+    <cpn>
+        <h3>我是h3元素</h3>
+        <h4>我是h4元素</h4>
+    </cpn>
+
+    <cpn></cpn>
+</div>
+<template id="cpn">
+    <div>
+        <h2>我是cpn组件标题</h2>
+        <p>我是组件内容</p>
+        <!--插槽可以有默认元素button -->
+        <slot>
+            <button>按钮1</button>
+        </slot>
+        <slot>
+            <!--<button>按钮2</button>-->
+        </slot>
+        <!--<button>按钮</button>-->
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    // const cpn = {
+    //     template: '#cpn',
+    //     data() {
+    //         return {}
+    //     }
+    // };
+    const app = new Vue({
+        el: '#app',
+        data: {
+            message: '你好啊!!!fw',
+            sex: '男',
+            age: '',
+            name: '',
+        },
+        components: {
+            //cpn
+            cpn: {
+                template: '#cpn',
+            }
+        }
+    })
+</script>
+</body>
+</html>

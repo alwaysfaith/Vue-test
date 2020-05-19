@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--父组件-->
+<div id="app">
+    <cpn :add-counter="counter"
+         :child-categories="categories"
+         @incr-click="changeTotal"
+         @decr-click="changeTotal"
+         @btn-click="cpnClick">
+    </cpn>
+    <h2>{{counter}}</h2>
+</div>
+<!--子组件-->
+<template id="cpn">
+    <div>
+        <div>
+            <button v-for="item in childCategories" @click="btnClick(item)">{{item.name}}</button>
+        </div>
+        <br><br>
+        <div>
+            <h2>{{addCounter}}</h2>
+            <button @click="increment(addCounter)">+</button>
+            <button @click="decrement(addCounter)">-</button>
+        </div>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    //子组件
+    const cpn = {
+        template: '#cpn',
+        props: {
+            addCounter: {
+                type: Number,
+                default() {
+                    return 998
+                }
+            },
+            childCategories: {
+                type: Array,
+                default() {
+                    return []
+                }
+            }
+        },
+        methods: {
+            increment(num) {
+                num++;
+                this.$emit('incr-click', num)
+            },
+            decrement(num) {
+                num--;
+                this.$emit('decr-click', num)
+            },
+            btnClick(item) {
+                console.log(item);
+                this.$emit('btn-click', item)
+            },
+        }
+        // data() {
+        //     return {}
+        // },
+        // methods: {},
+    };
+    //父组件
+    const app = new Vue({
+        el: '#app',
+        data: {
+            counter: 0,
+            categories: [
+                {id: 1, name: '热门推荐'},
+                {id: 2, name: '手机数码'},
+                {id: 3, name: '家用家电'},
+                {id: 4, name: '电脑办公'},
+            ]
+        },
+        methods: {
+            changeTotal(num) {
+                this.counter = num;
+            },
+            cpnClick(item) {
+                console.log('cpnClick');
+                console.log(item);
+            }
+        },
+        components: {
+            cpn
+        }
+    });
+</script>
+</body>
+</html>

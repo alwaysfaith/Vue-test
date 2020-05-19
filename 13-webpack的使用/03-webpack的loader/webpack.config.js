@@ -1,0 +1,66 @@
+const path = require('path');
+module.exports = {
+    entry: './src/main.js',
+    output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: 'bundle.js',
+        publicPath: 'dist/'
+    },
+    module: {
+        rules: [
+            {
+                test: /\.css$/,
+                // css-loader只负责将css文件进行加载
+                // style-loader负责将样式添加到dom中
+                // 使用多个loader时，是从右往左读
+                use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.less$/,
+                use: [{
+                    loader: "style-loader" // creates style nodes from JS strings
+                }, {
+                    loader: "css-loader" // translates CSS into CommonJS
+                }, {
+                    loader: "less-loader" // compiles Less to CSS
+                }]
+            },
+            {
+                test: /\.(png|jpg|gif|jpeg)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            // 当加载的图片，小于limit时，会将图片编译成base64字符串形式
+                            // 当加载的图片，大于limit时，需要使用file-loader模块进行加载
+                            limit: 16000,
+                            name: 'img/[name].[hash:8].[ext]'
+                        },
+                    }
+                ]
+            },
+            {
+                test: /\.js$/,
+                // exclude 排除
+                // include 包含
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['es2015']
+                    }
+                }
+            }
+        ]
+    }
+};
+
+// 报相应的错,发现原因是由于less-loader安装的版本过高，在【package.json】中，可查看到安装的版本
+// 卸载安装的高版本的less-loader，【npm uninstall less-loader】，安装指定低版本的less-loader【npm install less-loader@4.1.0 --save -dev】
+// ERROR in ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js!./src/css/special.less
+// Module build failed: TypeError: loaderContext.getResolve is not a function
+// at createWebpackLessPlugin (D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\node_modules\less-loader\dist\utils.js:31:33)
+// at getLessOptions (D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\node_modules\less-loader\dist\utils.js:148:31)
+// at Object.lessLoader (D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\node_modules\less-loader\dist\index.js:27:49)
+// @ ./src/css/special.less 2:26-138
+// @ ./src/main.js

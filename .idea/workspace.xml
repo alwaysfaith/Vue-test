@@ -1,28 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e569dc07-731b-4807-b143-0cef35aef110" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-条件判断/01-v-if的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/02-v-if和v-else的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/03-v-if和v-else-if和v-else的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/04-用户登录切换的案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/05-用户登录切换的案例(小问题).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-条件判断/06-v-show的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/01-v-for遍历数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/02-v-for遍历对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/03-v-for使用过程添加key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/04-哪些数组的方法是响应式的.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-循环遍历/05-作业的回顾和完成.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/01-书籍购物车.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/lambda.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-书籍购物车案例/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/01-v-model的基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/02-v-model的原理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/03-v-model结合radio类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/04-v-model结合checkbox类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-v-model使用/05-v-model结合select类型.html" afterDir="false" />
+    <list default="true" id="e569dc07-731b-4807-b143-0cef35aef110" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/09-v-model使用/06-v-model修饰符的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/01-组件化的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/03-父组件和子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/04-组件的语法糖注册方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/06-组件中的数据存放问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/07-组件中的data为什么是函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/08-组件通信-父组件向子组件传递数据.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/09-组件通信-父传子(props中的驼峰标识).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/10-组件通信-子传父(自定义事件).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/11-组件通信-父子组件的通信案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/12-组件通信-父子组件的通信案例(watch实现).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/13-组件访问-父访问子-children-refs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-组件化开发/14-组件访问-子访问父-parent-root.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/01-slot-插槽的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/02-slot-具名插槽的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-组件化高级/03-什么是编译的作用域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/aaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/bbb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-前端模块化/02-ES6的模块化实现/mmm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/01-webpack的起步/src/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/src/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/02-webpack的配置/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/dist/img/second.b97588ab.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/css/normal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/css/special.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/img/forth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/img/second.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/js/info.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/js/mathUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,12 +56,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
@@ -61,17 +102,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-v-model使用" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13-webpack的使用/03-webpack的loader/src/img" />
+    <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\abs\Vue-test\08-书籍购物车案例" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\abs\Vue-test\09-v-model使用" />
-      <recent name="D:\abs\Vue-test\07-循环遍历" />
-      <recent name="D:\abs\Vue-test\06-条件判断" />
+      <recent name="D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\src\img" />
+      <recent name="D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\src\js" />
+      <recent name="D:\abs\Vue-test\13-webpack的使用" />
+      <recent name="D:\abs\Vue-test\11-组件化高级" />
+      <recent name="D:\abs\Vue-test\10-组件化开发" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\abs\Vue-test\13-webpack的使用\03-webpack的loader\src\js" />
+      <recent name="D:\abs\Vue-test\08-书籍购物车案例" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -97,7 +144,12 @@
       <option name="presentableId" value="Default" />
       <updated>1589450727815</updated>
       <workItem from="1589450808836" duration="418000" />
-      <workItem from="1589505155004" duration="20659000" />
+      <workItem from="1589505155004" duration="21300000" />
+      <workItem from="1589763797826" duration="17484000" />
+      <workItem from="1589792427355" duration="19175000" />
+      <workItem from="1589874483291" duration="3707000" />
+      <workItem from="1589878659924" duration="179000" />
+      <workItem from="1589878879656" duration="11299000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1589450879513</created>
@@ -106,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589450879513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init commit">
+      <created>1589536622819</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589536622819</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,25 +176,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589450878919">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589882341217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450878919" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589450885058">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589882341217" />
+    <state x="703" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589788540742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589450885058" />
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589505228208">
+    <state x="703" y="374" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040@0.0.1920.1040" timestamp="1589788540742" />
+    <state x="560" y="110" key="CommitChangelistDialog2" timestamp="1589538386544">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589505228208" />
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589536604405">
+    <state x="560" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589538386544" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1589878746712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589536604405" />
-    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1589527229891">
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589878746712" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1589878753391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589527229891" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589878753391" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1589536624742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589536624742" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1589763886451">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589763886451" />
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589894629294">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589894629294" />
+    <state x="636" y="253" width="647" height="534" key="find.popup" timestamp="1589797735694">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589797735694" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589872653406">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589872653406" />
   </component>
 </project>

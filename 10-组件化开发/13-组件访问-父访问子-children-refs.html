@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--父组件-->
+<div id="app">
+    <cpn></cpn>
+    <cpn1 ref="bbb"></cpn1>
+    <cpn1 ref="aaa"></cpn1>
+    <button @click="btnClick">按钮</button>
+</div>
+<!--子组件-->
+<template id="cpn">
+    <div>
+        <h2>我是子组件cpn</h2>
+    </div>
+</template>
+<template id="cpn1">
+    <div>
+        <h2>我是子组件cpn1</h2>
+    </div>
+</template>
+<script src="../js/vue.js"></script>
+<script>
+    const app = new Vue({
+        el: '#app',
+        data: {
+            num1: 1,
+            num2: 0,
+        },
+        methods: {
+            btnClick: function () {
+                //1. $children
+                console.log(this.$children);
+                for (let m of this.$children) {
+                    m.showMessage();
+                    console.log(m.name);
+                }
+                console.log(this.$children[1].name);
+                //2. $refs => {} 对象类型, 默认是一个空的对象 ref='bbb'
+                console.log(this.$refs.aaa.name);
+            },
+        },
+        components: {
+            cpn: {
+                template: '#cpn',
+                methods: {
+                    showMessage() {
+                        console.log('showMessageCpn');
+                    },
+                },
+                data() {
+                    return {
+                        name: '子组件cpn'
+                    }
+                },
+            },
+            cpn1: {
+                template: '#cpn1',
+                methods: {
+                    showMessage() {
+                        console.log('showMessageCpn1');
+                    },
+                },
+                data() {
+                    return {
+                        name: '子组件cpn1'
+                    }
+                },
+            },
+        }
+    });
+</script>
+</body>
+</html>
